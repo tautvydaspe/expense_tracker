@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #646b00, #106300);
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+}
+
+p {
+  padding: 10px;
+  font-size: 30px;
+}
+
+input {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.name {
+  width: 700px;
+}
+
+.expense-btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: rgb(79, 158, 0);
+  border-color: yellowgreen;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.expense-btn:hover {
+  background: yellowgreen;
+  color: black;
+}
+
+.delete-btn {
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background: rgb(79, 158, 0);
+  border-color: yellowgreen;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: yellowgreen;
+  color: black;
+}
+
+table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #505050af;
+}
+
+tr:nth-child(odd) {
+  background-color: #5050506c;
+}
+
+tr {
+  transition: all 1s ease;
+}
+
+.spin {
+  transform: translateY(100rem) rotateZ(50deg);
+  opacity: 0;
+}

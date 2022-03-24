@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Expense Tracker</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap"
+          rel="stylesheet">
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <header>
+          <h1>Expense Tracker</h1>
+          <h3>Add A New Item:</h3>
+     </header>
+     <form>
+          <div>
+               <p>Name:</p>
+               <input type="text" class="name" placeholder="Where was the expense made?">
+          </div>
+          <div>
+               <p>Date:</p>
+               <input type="date" class="date">
+               <p>Amount:</p>
+               <input type="text" placeholder="Eur" class="amount">
+          </div>
+          <div>
+               <button class="expense-btn">Add Expense</button>
+          </div>
+          
+     </form>
+     <div class="expenses-container">
+          <table class="expenses">
+
+          </table>
+     </div>
+     <p class="wrong-input"></p>
+</body>
+<script src="index.js"></script>
+</html>
